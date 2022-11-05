@@ -62,7 +62,7 @@ POM_PACKAGING=aar
 Add the following at the end of each `build.gradle` that you wish to upload:
 
 ```groovy
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: 'https://raw.github.com/binishmatheww/MavenPub/main/MavenPub.gradle'
 ```
 
 ### 6. Build and Push
@@ -70,7 +70,7 @@ apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn
 You can now build and push:
 
 ```bash
-$ gradle clean build uploadArchives
+$ gradle clean build publish
 ```
 	
 ### Other Properties
